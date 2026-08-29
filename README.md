@@ -10,6 +10,7 @@ Add REadme PROJECT
 Create initial ERD
 Updat ERD user entity
 Add events entity toERD
+Add Enrolments entity to ERD
 
 ## User Roles
 
