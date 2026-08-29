@@ -11,6 +11,7 @@ Create initial ERD
 Updat ERD user entity
 Add events entity toERD
 Add Enrolments entity to ERD
+Add event API endpoints
 
 ## User Roles
 
