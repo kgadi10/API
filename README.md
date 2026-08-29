@@ -6,6 +6,7 @@ RaceDay is a full-stack web-based event management system designed for the South
 
 The system is designed to reduce the reliance on paper-based registration, spreadsheets and disconnected communication channels by providing a centralised platform for managing road running, walking and cycling events.
 Intial raceday repository setup
+Add REadme PROJECT
 
 ## User Roles
 
