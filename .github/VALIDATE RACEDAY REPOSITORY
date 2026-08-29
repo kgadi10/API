@@ -1,0 +1,31 @@
+name: Validate RaceDay Repository
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-repository:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check docs folder exists
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "docs folder does not exist"
+            exit 1
+          fi
+
+      - name: Check required files exist
+        run: |
+          test -f docs/RaceDay_Database.sql
+          echo "SQL database file found"
+
+      - name: List documentation files
+        run: |
+          ls -la docs
