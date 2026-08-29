@@ -20,6 +20,7 @@ Add routes entity to ERD
 Update ERD relationships
 Add raceday system description
 add enrolments entity to ERD
+ADD CATEGORY API ENDPOINTS
 
 ## User Roles
 
