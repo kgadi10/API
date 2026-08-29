@@ -18,6 +18,7 @@ Add github actions validation workflow
 Add API authentication endpoint
 Add routes entity to ERD
 Update ERD relationships
+Add raceday system description
 
 ## User Roles
 
