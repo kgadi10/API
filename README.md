@@ -8,6 +8,8 @@ The system is designed to reduce the reliance on paper-based registration, sprea
 Intial raceday repository setup
 Add REadme PROJECT
 Create initial ERD
+Updat ERD user entity
+Add events entity toERD
 
 ## User Roles
 
