@@ -16,6 +16,7 @@ Add SQL database schema
 Add SQL sample data
 Add github actions validation workflow
 Add API authentication endpoint
+Add routes entity to ERD
 
 ## User Roles
 
