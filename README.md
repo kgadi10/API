@@ -14,6 +14,7 @@ Add Enrolments entity to ERD
 Add event API endpoints
 Add SQL database schema 
 Add SQL sample data
+Add github actions validation workflow
 
 ## User Roles
 
