@@ -12,6 +12,7 @@ Updat ERD user entity
 Add events entity toERD
 Add Enrolments entity to ERD
 Add event API endpoints
+Add SQL database schema 
 
 ## User Roles
 
