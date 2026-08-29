@@ -69,7 +69,7 @@ GitHub Actions is used to validate the RaceDay repository structure and confirm 
 
 The following unlisted YouTube video demonstrates the RaceDay Part 1 planning process, including the planning documents, ERD decisions, API endpoint plan and execution of the SQL database script in SQL Server Management Studio.
 
-YouTube Video:
+YouTube Video:https://youtu.be/5jrlBPCu9Qg
 
 PASTE YOUR UNLISTED YOUTUBE LINK HERE# API
 PROG PART1
