@@ -13,6 +13,7 @@ Add events entity toERD
 Add Enrolments entity to ERD
 Add event API endpoints
 Add SQL database schema 
+Add SQL sample data
 
 ## User Roles
 
