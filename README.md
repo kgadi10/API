@@ -151,7 +151,10 @@ The RaceDay.Tests project contains automated API tests for:
 
 Create the Web API project.
 Add the User model.
+Add the Category model.
 
 
+
+Add the Route model.
 
 Add the Event model.
