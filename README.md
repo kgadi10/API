@@ -152,7 +152,11 @@ The RaceDay.Tests project contains automated API tests for:
 Add the Enrolment model.
 Add database relationships and constraints.
 
+Implement login and logout.
 
+
+
+Add password hashing.
 
 Add request validation models.
 
