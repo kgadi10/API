@@ -161,7 +161,7 @@ Implement login and logout.
 
 Implement category endpoints.
 
-
+Implement enrolment endpoints.
 
 Implement route endpoints.
 Add password hashing.
