@@ -159,7 +159,11 @@ Add database relationships and constraints.
 Implement login and logout.
 
 
+Implement category endpoints.
 
+
+
+Implement route endpoints.
 Add password hashing.
 
 Add request validation models.
