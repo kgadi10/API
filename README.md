@@ -172,7 +172,7 @@ Implement result endpoints.
 Add the Result model.
 
 
-
+Add automated tests and CI, then update documentation as further separate changes where appropriate.
 Configure the database context.
 Create the Web API project.
 Add the User model.
