@@ -24,7 +24,11 @@ ADD CATEGORY API ENDPOINTS
 Implement registration.
 ADD YOUTUBE LINK
 ADD sql sample data
+Implement profile endpoints.
 
+
+
+Implement event endpoints.
 ## User Roles
 
 ### Event Organiser
