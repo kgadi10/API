@@ -21,6 +21,7 @@ Update ERD relationships
 Add raceday system description
 add enrolments entity to ERD
 ADD CATEGORY API ENDPOINTS
+Implement registration.
 ADD YOUTUBE LINK
 ADD sql sample data
 
