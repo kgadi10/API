@@ -75,7 +75,7 @@ PASTE YOUR UNLISTED YOUTUBE LINK HERE# API
 PROG PART1
 # RaceDay API
 
-## 1. Project Overview
+## 1. Project Overview Part 2
 
 RaceDay is an ASP.NET Core Web API for managing running, walking
 and cycling events in South Africa.
