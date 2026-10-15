@@ -149,7 +149,5 @@ The RaceDay.Tests project contains automated API tests for:
 - Participant restrictions on organiser operations.
 - Participant enrolment.
 
-Run tests using:
-
-dotnet test
+Create the Web API project.
 
