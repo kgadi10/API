@@ -73,3 +73,83 @@ YouTube Video:https://youtu.be/5jrlBPCu9Qg
 
 PASTE YOUR UNLISTED YOUTUBE LINK HERE# API
 PROG PART1
+# RaceDay API
+
+## 1. Project Overview
+
+RaceDay is an ASP.NET Core Web API for managing running, walking
+and cycling events in South Africa.
+
+The API allows event organisers to manage events, categories, routes,
+participant enrolments and results. Participants can view events,
+manage their profiles, enrol in events and view their results.
+
+## 2. Technologies
+
+- C#
+- ASP.NET Core Web API
+- Entity Framework Core Code First
+- Microsoft SQL Server
+- Cookie-based session authentication
+- Password hashing
+- Swagger / OpenAPI
+- xUnit automated tests
+- GitHub Actions
+
+## 3. User Roles
+
+### Organiser
+- Create, view, update and delete their events, subject to enrolment rules.
+- Manage event categories and routes.
+- View enrolments for their events.
+- Record, update and delete results for their events.
+
+### Participant
+- Register and log in.
+- View and update their profile.
+- View available events and categories.
+- Enrol in categories and cancel their enrolments.
+- View their own results.
+
+## 4. Database
+
+The database uses Entity Framework Core Code First and SQL Server.
+
+Entities:
+- Users
+- Events
+- Categories
+- Routes
+- Enrolments
+- Results
+
+The database uses primary keys, foreign keys, unique constraints and
+relationships to maintain data integrity.
+
+## 5. Authentication and Security
+
+Passwords are hashed using ASP.NET Core's password hashing service.
+The API uses an HTTP-only session cookie and role-based authorisation.
+Organiser operations are restricted to the organiser who owns the event.
+
+## 6. Running the Project
+
+1. Install the .NET 8 SDK and SQL Server or LocalDB.
+2. Configure the RaceDayConnection connection string.
+3. Restore NuGet packages.
+4. Run the EF Core database migration commands.
+5. Run the API using HTTPS.
+6. Open /swagger to explore and test the endpoints.
+
+## 7. Testing
+
+The RaceDay.Tests project contains automated API tests for:
+- Registration and login.
+- Organiser event creation.
+- Participant restrictions on organiser operations.
+- Participant enrolment.
+
+Run tests using:
+
+dotnet test
+
