@@ -149,7 +149,11 @@ The RaceDay.Tests project contains automated API tests for:
 - Participant restrictions on organiser operations.
 - Participant enrolment.
 Add the Enrolment model.
+Add database relationships and constraints.
 
+
+
+Add request validation models.
 
 
 Add the Result model.
