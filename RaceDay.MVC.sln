@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaceDay.MVC", "RaceDay.MVC\RaceDay.MVC.csproj", "{674C8E19-2F45-40C6-80AA-4653BA81A7A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		ApiService.cs = ApiService.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{CC60D55B-B0DC-466A-AF4F-EDF10B7613BF}"
+	ProjectSection(SolutionItems) = preProject
+		CategoryViewModel.cs = CategoryViewModel.cs
+		EnrolmentViewModel.cs = EnrolmentViewModel.cs
+		EventViewModel.cs = EventViewModel.cs
+		LoginViewsModel.cs = LoginViewsModel.cs
+		RegisterViewModel.cs = RegisterViewModel.cs
+		ResultsViewModel.cs = ResultsViewModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC controllers", "MVC controllers", "{E87A5BD3-6F86-4DED-950E-C0F7621B95E7}"
+	ProjectSection(SolutionItems) = preProject
+		AccountController.cs = AccountController.cs
+		HomeController.cs = HomeController.cs
+		OrganiserController.cs = OrganiserController.cs
+		ParticipantController.cs = ParticipantController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{1F894CCF-D974-4DE4-A3AC-48208311D6EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{13F9A13C-733E-4CD6-99ED-42F1150AED11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Home", "Home", "{4BE3777E-7E84-46A2-88EF-6D66255B98A8}"
+	ProjectSection(SolutionItems) = preProject
+		Index.cshtml = Index.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Account", "Account", "{6B3069AD-D160-47F6-980F-11A48215269A}"
+	ProjectSection(SolutionItems) = preProject
+		login.cshtml = login.cshtml
+		Register.cshml = Register.cshml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "participant", "participant", "{1B571303-9857-4AD3-92F2-3A11AAB4B587}"
+	ProjectSection(SolutionItems) = preProject
+		dashboard.cshtml = dashboard.cshtml
+		enrol.cshtml = enrol.cshtml
+		events.cshtml = events.cshtml
+		results.cshtml = results.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "organiser", "organiser", "{23780BCD-81C0-484F-9050-CC5604F62CD2}"
+	ProjectSection(SolutionItems) = preProject
+		AddResult.cshtml = AddResult.cshtml
+		createEvent.cshtml = createEvent.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{45B826A2-36F9-49AE-8DAF-955EB7ADDDEB}"
+	ProjectSection(SolutionItems) = preProject
+		Layout.cshtml = Layout.cshtml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{524403D8-76D3-4FD7-BCE2-5E0250C3CBB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{5A745B83-31D7-4438-B013-6E072ECB7766}"
+	ProjectSection(SolutionItems) = preProject
+		site.css = site.css
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{674C8E19-2F45-40C6-80AA-4653BA81A7A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674C8E19-2F45-40C6-80AA-4653BA81A7A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674C8E19-2F45-40C6-80AA-4653BA81A7A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674C8E19-2F45-40C6-80AA-4653BA81A7A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {E87A5BD3-6F86-4DED-950E-C0F7621B95E7}
+		{13F9A13C-733E-4CD6-99ED-42F1150AED11} = {1F894CCF-D974-4DE4-A3AC-48208311D6EA}
+		{4BE3777E-7E84-46A2-88EF-6D66255B98A8} = {13F9A13C-733E-4CD6-99ED-42F1150AED11}
+		{6B3069AD-D160-47F6-980F-11A48215269A} = {13F9A13C-733E-4CD6-99ED-42F1150AED11}
+		{1B571303-9857-4AD3-92F2-3A11AAB4B587} = {13F9A13C-733E-4CD6-99ED-42F1150AED11}
+		{23780BCD-81C0-484F-9050-CC5604F62CD2} = {13F9A13C-733E-4CD6-99ED-42F1150AED11}
+		{45B826A2-36F9-49AE-8DAF-955EB7ADDDEB} = {13F9A13C-733E-4CD6-99ED-42F1150AED11}
+		{524403D8-76D3-4FD7-BCE2-5E0250C3CBB8} = {1F894CCF-D974-4DE4-A3AC-48208311D6EA}
+		{5A745B83-31D7-4438-B013-6E072ECB7766} = {524403D8-76D3-4FD7-BCE2-5E0250C3CBB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E023076E-83F5-4916-B860-96AB0D73D7DC}
+	EndGlobalSection
+EndGlobal
